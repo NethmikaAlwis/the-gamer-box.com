@@ -1,0 +1,90 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+     margin: 0;
+     padding: 0;
+   }
+   
+ 
+     body {
+          font-family: Arial, sans-serif;
+          background-image: url("https://wallpaperaccess.com/gaming");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-color: #f1f1f1;
+        }
+        
+  
+   
+   header {
+     background-color: #333;
+     padding: 20px;
+     color: #fff;
+   }
+   
+   header h1 {
+     font-size: 24px;
+   }
+   
+   nav ul {
+     list-style-type: none;
+   }
+   
+   nav ul li {
+     display: inline;
+     margin-right: 10px;
+   }
+   
+   nav ul li a {
+     color: #fff;
+     text-decoration: none;
+   }
+   
+   section {
+     padding: 40px;
+   }
+   
+   #hero {
+     text-align: center;
+     background-color: #ddd;
+   }
+   
+   #hero h2 {
+     font-size: 36px;
+   }
+   
+   .button {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #333;
+     color: #fff;
+     text-decoration: none;
+     border-radius: 5px;
+   }
+   
+   #games {
+     background-color: #f9f9f9;
+   }
+   
+   .game-card {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     margin-bottom: 20px;
+   }
+   
+   .game-card img {
+     width: 100%;
+     max-width: 200px;
+     height: auto;
+     margin-bottom: 10px;
+   }
+   
+   footer {
+     background-color: #333;
+     padding: 20px;
+     color: #fff;
+     text-align: center;
+   }
+   
